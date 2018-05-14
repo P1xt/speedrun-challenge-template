@@ -1,0 +1,47 @@
+{
+  "name": "fcc-speedrun-react",
+  "version": "1.0.0",
+  "description": "--",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leovcunha/fcc-speedrun-react.git"
+  },
+  "author": "leovcunha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leovcunha/fcc-speedrun-react/issues"
+  },
+  "homepage": "https://github.com/leovcunha/fcc-speedrun-react#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-react": "^7.8.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^22.4.3",
+    "sass-loader": "^7.0.1",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-hot-middleware": "^2.22.1"
+  }
+}
